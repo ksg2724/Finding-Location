@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicon.ico">
 
-    <title>BlackTie.co - Sumo Lading</title>
+    <title>Finding.Location</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -34,18 +34,13 @@
 
     <div id="h">
       <div class="logo">Finding location</div>
-      <div class="social hidden-xs">
-        <a href="#"><i class="ion-social-twitter"></i></a>
-        <a href="#"><i class="ion-social-instagram"></i></a>
-        <a href="#"><i class="ion-social-facebook"></i></a>
-      </div>
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 centered">
             <h1>Welcome to our new app site.<br/>Enter your location now & prepare to enjoy our service.</h1>
             <div class="mtb">
               <form role="form" action="./map.php" method="post"> 
-                <input type="text" name="asdf" class="subscribe-input" placeholder="위치를 입력해주세요." autocomplete="off" required>
+                <input type="text" name="location" class="subscribe-input" placeholder="위치를 입력해주세요." autocomplete="off" required>
                 <button class='btn btn-conf btn-green' type="submit">Start your free trial</button>
               </form>
             </div><!--/mt-->
